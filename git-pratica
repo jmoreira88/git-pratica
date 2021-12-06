@@ -1,0 +1,42 @@
+// Arquivo que mostra sequência passo-a-passo dos protocolos de utilização do git/gihub. Será utilizado como "cobaia" para o treino dos protocolos.
+
+//
+(Utilização do vi:) 
+*********************************
+-i(incia edição) 
+-esc(vai para o modo comando)
+-:wq(salva e sai)
+-:q(sai do editor)
+-:q!(sai sem salvar)
+-:w!(força sobrescrição)
+*********************************
+
+1o Passo: Configuração de Usuário
+---------------------------------
+
+git config --global user.email [email]
+git config --global user.name [nome]
+
+Configura as informações do usuário que está a realizar o versionamento
+=======================================================================
+
+2o passo: Inicialização do git
+------------------------------
+
+git init 
+
+Inicializa o git na pasta do seu projeto
+========================================
+
+3o passo: Adicionar arquivos
+----------------------------
+
+git add [arquivo]
+
+Adiciona o arquivo a ser versionado ("git add ." adiciona todos os arquivo da pasta)
+====================================================================================
+
+4o passo: 
+
+
+

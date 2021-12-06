@@ -42,5 +42,24 @@ Adiciona o arquivo a ser versionado ("git add ." adiciona todos os arquivo da pa
 git commit {-m ["mensagem"]}
 
 Joga as modificações para a ramificação principal. Essa ação será salva em log com o identificador do usuário conjuntamente à mensagem que deve ser explicativa da modificação efetuada.
+=======================================================================================
 
+5o passo: Criação de ramificação
+--------------------------------
+
+git branch [nome da ramificação]
+
+Inicializa um repositório idêntico ao da master que será utilizado para edição em paralelo da versão.
+==============
+
+6o passo: Acesso à branch paralela
+----------------------------------
+
+git checkout [nome da branch]
+
+Passa a edição do projeto da master para a branch em questão.
+
+(git branch -l => lista as branches)
+(git status => retorna a ramificação em que se está trabalhando)
+================================================================
 

@@ -17,7 +17,7 @@
 git config --global user.email [email]
 git config --global user.name [nome]
 
-Configura as informações do usuário que está a realizar o versionamento
+Configura as informações do usuário que está a realizar o versionamento.
 =======================================================================
 
 2o passo: Inicialização do git
@@ -33,10 +33,14 @@ Inicializa o git na pasta do seu projeto
 
 git add [arquivo]
 
-Adiciona o arquivo a ser versionado ("git add ." adiciona todos os arquivo da pasta)
+Adiciona o arquivo a ser versionado ("git add ." adiciona todos os arquivo da pasta).
 ====================================================================================
 
-4o passo: 
+4o passo: Jogar modificações para a master
+------------------------------------------
 
+git commit {-m ["mensagem"]}
+
+Joga as modificações para a ramificação principal. Essa ação será salva em log com o identificador do usuário conjuntamente à mensagem que deve ser explicativa da modificação efetuada.
 
 

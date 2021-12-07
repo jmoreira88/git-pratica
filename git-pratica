@@ -113,4 +113,14 @@ git push origin master
 "Empurra" os arquivos da master para o github no repositório especificado no passo anterior.
 =====
 
+!IMPORTANTE!
+************
+
+CASO VOLTEMOS A UTILIZAR UMA BRANCH DESATUALIZADA, UTILIZAR O COMANDO
+
+git pull origin master
+
+PARA QUE A BRANCH SEJA ATUALIZADA DO MASTER HOSPEDADO NO GITHUB!
+****************************************************************
+
 

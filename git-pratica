@@ -1,6 +1,6 @@
-// Arquivo que mostra sequência passo-a-passo dos protocolos de utilização do git/gihub. Será utilizado como "cobaia" para o treino dos protocolos.
+Arquivo que mostra sequência passo-a-passo dos protocolos de utilização do git/gihub. Será utilizado como "cobaia" para o treino dos protocolos.
 
-// (Utilização do vi:) 
+(Utilização do vi (editor de texto via bash):) 
 *********************************
 -i (incia edição) 
 -esc (vai para o modo comando)

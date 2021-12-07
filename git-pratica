@@ -130,3 +130,10 @@ Quando empurramos uma branch modificada para uma master, no caso de estarmos tra
 
 Deve-se fazer na página do github na aba "pull requests".
 =========================================================
+
+!IMPORTANTE!
+************
+
+Conflitos podem ocorrer quando mais de uma pessoa está editando o mesmo arquivo, ou seja, duas pessoas podem editar a mesma parte do arquivo! O próprio github faz essa verificação. Se não houver conflito, ele abre precedente para o "merge" automaticamente. Se houver, a correção do conflito deve ser feita de maneira manual.
+***************************************************************
+

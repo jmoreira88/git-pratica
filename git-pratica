@@ -83,4 +83,34 @@ git stash => salva a tarefa não concluída em diretório temporário, em caso d
 PARTE 2: Github
 ===============
 
+O Github é um hospedeiro de repositórios remoto, onde podemos armazenar/compartilhar arquivos, sendo eles de código ou não.
+
+Os passos descrevem o protocolo para subir os repositórios do git para o github.
+
+1o passo: Criar o repositório no Github
+---------------------------------------
+
+Abrir sua página no Github e criar o diretório (aparentemente não tem jeito de fazê-lo por linha de comando).
+======================
+
+2o passo: Configurar o repositório de origem (repositório do github)
+--------------------------------------------------------------------
+
+git remote origin [endereço do repositório no github]
+
+(git remote -v => lista o "fetch" e o "push")
+(fetch => endereço de onde podemos baixar os arquivos do github)
+(push => endereço para onde iremos "empurrar" os arquivos para o github)
+
+Configura a destinação do repositório para o endereço do github.
+================================================================
+
+3o passo: "Empurrar" os arquivos para o github
+----------------------------------------------
+
+git push origin master
+
+"Empurra" os arquivos da master para o github no repositório especificado no passo anterior.
+=====
+
 

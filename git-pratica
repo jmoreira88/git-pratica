@@ -62,6 +62,12 @@ Passa a edição do projeto da master para a branch em questão.
 (git branch -l => lista as branches)
 (git status => retorna a ramificação em que se está trabalhando)
 (git checkout -b [nome da ramificação] => cria a ramificação e já vai para ela))
-================================================================
+================================================================================
 
-7o passo: 
+7o passo: Fundir à Master
+-------------------------
+
+git merge [nome da ramificação]
+
+Adiciona as modificações feitas na ramificação em questão à ramificação principal
+=================================================================================

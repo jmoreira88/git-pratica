@@ -137,3 +137,27 @@ Deve-se fazer na página do github na aba "pull requests".
 Conflitos podem ocorrer quando mais de uma pessoa está editando o mesmo arquivo, ou seja, duas pessoas podem editar a mesma parte do arquivo! O próprio github faz essa verificação. Se não houver conflito, ele abre precedente para o "merge" automaticamente. Se houver, a correção do conflito deve ser feita de maneira manual.
 ***************************************************************
 
+5o passo: README.md
+-------------------
+
+Por fim, editamos o arquivo README.md, que será a descrição do seu projeto, em arquivo markdown -- sistema de formatação "limpo". Essa descrição será mostrada na página do seu repositório quando for visitada por um usuário.
+=================================================
+
+6o passo: AO TRABALHO!
+----------------------
+
+Com este tutorial, podemos trabalhar -- pelo menos basicamente -- com o sistema de versionamento git e com o hospedeiro e compartilhador de repositórios Github!
+
+=======
+Extras:
+=======
+
+#1 Clonar master do github para máquina
+---------------------------------------
+
+Podemos fazer uma cópia da master atual para nossa máquina de onde trabalharemos com o arquivo possivelmente modificado por outros membros da equipe. Para isso, criamos um diretório em nossa máquina e fazemos:
+
+git clone [endereço]
+
+Onde [endereço] é o próprio endereço do repositório no github, que pode ser extraído rapidamente na aba "Code" do repositório no github.
+=================================================

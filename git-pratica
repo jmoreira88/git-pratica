@@ -1,15 +1,17 @@
 // Arquivo que mostra sequência passo-a-passo dos protocolos de utilização do git/gihub. Será utilizado como "cobaia" para o treino dos protocolos.
 
-//
-(Utilização do vi:) 
+// (Utilização do vi:) 
 *********************************
--i(incia edição) 
--esc(vai para o modo comando)
--:wq(salva e sai)
--:q(sai do editor)
--:q!(sai sem salvar)
--:w!(força sobrescrição)
+-i (incia edição) 
+-esc (vai para o modo comando)
+-:wq (salva e sai)
+-:q (sai do editor)
+-:q! (sai sem salvar)
+-:w! (força sobrescrição)
 *********************************
+
+PARTE 1: GIT
+============
 
 1o Passo: Configuração de Usuário
 ---------------------------------
@@ -71,3 +73,14 @@ git merge [nome da ramificação]
 
 Adiciona as modificações feitas na ramificação em questão à ramificação principal
 =================================================================================
+
+Extras:
+-------
+
+git stash => salva a tarefa não concluída em diretório temporário, em caso de emergência, para continuar a edição depois.
+==================================
+
+PARTE 2: Github
+===============
+
+
